@@ -7,3 +7,4 @@ RUN yum install -y dnf dnf-plugins-core \
 RUN dnf clean all
 
 ### CDIC END
+RUN dnf install -y copr-frontend
